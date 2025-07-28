@@ -1,0 +1,109 @@
+/* form.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6e2f9;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.donation-section {
+    background-color: #b8d6ec;
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    border: 2px solid #999;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: darkred;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+input[type="text"],
+input[type="address"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.additionalInfo p,
+.comments p,
+.contact p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resetBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+.resetBtn:hover {
+    background-color: #d32f2f;
+}
+
+.continueBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.continueBtn:hover {
+    background-color: #388e3c;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa;
+}
