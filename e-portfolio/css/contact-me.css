@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #acaeb0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    background-color: #24292e;
+    padding:50px;
+    
+}
+nav .logo{
+    width: 65%;
+}
+nav .list{
+    width: 35%;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    /* min-height: 70px; */
+}
+
+/* Form Container */
+.form-contain {
+    /* margin: 10px 20%; */
+     padding: 50px 50px; 
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    /* width: 100%; */
+    /* ma/x-width: 600px; */
+}
+
+/* Form Group: Horizontal Label + Input */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group > label {
+    width: 30%;
+    font-weight: bold;
+    padding-right: 15px;
+    text-align:right;
+}
+
+/* Inputs & Select */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select {
+    flex: 2;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Radio & Checkbox Styles */
+.radio-group,
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+}
+
+
+/* Add spacing between radio buttons */
+.form-group input[type="radio"] {
+    margin-left:10px;
+    
+}
+
+
+.formBtn,
+#submitBtn{
+    text-align: center;
+    color: tomato;
+
+}
+
+img{
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+

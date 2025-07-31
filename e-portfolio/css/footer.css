@@ -1,0 +1,30 @@
+footer {
+    
+    background-color: rgb(0, 9, 9);
+     padding: 0% 11% 0% 11%; 
+    /* padding-bottom: 0%;  */
+    
+
+}
+
+
+.socialLink {
+    display: flex;
+    justify-content:center;
+    align-items: center;       /* center them vertically (if needed) */
+    gap: 50px;                
+    padding: 10px;           
+    
+}
+
+
+.copyRight{
+    background-color: rgba(217, 153, 52,1);
+    text-align:center;
+}
+img{
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
