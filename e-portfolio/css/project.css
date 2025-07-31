@@ -71,12 +71,20 @@ body {
     text-align: justify;
 }
 
-.project-card .image-section{
-    width: 30%;
+.project-card .image-section {
+    width: 200px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    overflow: hidden; /* Prevents overflow */
+    flex-shrink: 0; /* Prevents it from shrinking */
+    border-radius: 8px; /* Optional: for a clean rounded look */
+    margin-right: 20px;
 }
-.project-card .image-section img{
-    height: 200px;
-    width: 200px;
+
+.project-card .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image fills the area without distortion */
+    transition: all 0.3s ease;
 }
 .project3-text{
     padding-left: 110px;

@@ -51,10 +51,6 @@ body {
   margin-bottom: 30px;
   color: #110303;
 }
-/* 
-.experience-grid {
-  
-} */
 
 .experience-card {
   margin-bottom: 20px;
@@ -64,6 +60,23 @@ body {
   border: 1px solid #30363d;
   border-radius: 8px;
 }
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* makes sure the image covers the area without distortion */
+  border-radius: 8px;
+}
+
+/* Set fixed dimensions for the image container */
+.image-section {
+  width: 100px;     /* or whatever fixed size you prefer*/ 
+  height: 150px;
+  /* flex-shrink: 0;   prevents shrinking in flex layout */
+  overflow:hidden ; /* hides any overflow from oversized images */
+  margin-right: 20px;
+}
+
 
 .experience-card h3 {
   color: #171718;
